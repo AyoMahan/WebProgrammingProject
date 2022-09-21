@@ -1,0 +1,97 @@
+h1 {
+  font-family: "Brush Script Mt", cursive;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Brush Script Mt", cursive;
+  text-align: center;
+}
+
+img {
+  width: 30%;
+  height: auto;
+  float:right;
+}
+
+.logo{
+  float:left;
+  width: 30%;
+  height: auto;
+  position: absolute;
+  top:10px;
+  left:150px;
+}
+.current-time{
+  left: 100px;
+  position:absolute;
+}
+
+.header {
+  margin-left: 10%;
+  font-size: 18px;
+  background-color: salmon;
+  padding: 30px;
+}
+
+.SideMenu {
+  height: 100%;
+  width: 10%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: aquamarine;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.SideMenu a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.SideMenu a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px;
+  /* Same as the width of the sidenav */
+  font-size: 18px;
+  /* Increased text to enable scrolling */
+  padding:10px;
+}
+.care{
+  margin-left: 160px;
+}
+
+.content{
+  position:absolute;
+  margin-left: 160px;
+  padding:10px;
+  min-height: 400px;
+   margin-bottom: 100px;
+   clear: both;
+
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+
+}
+
+figure{
+  width: 50%;
+  height: auto;
+  float:left;
+}

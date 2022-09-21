@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+    <title></title>
+  </head>
+
+
+  <body>
+    <div class="header">
+      <h1>Mahan's Adoption Center </h1>
+
+      <div class="logo">
+        <a href="A2_q4.html">
+          <img src="logoA2.jpg">
+      </div>
+
+      </a>
+      <!-- calling time function from the external javascript file-->
+        <script type = "text/javascript" src="script.js"></script>
+      <div id="current-time"></div>
+
+
+    </div>
+    <div class="SideMenu">
+      <h3 class="side">Menu</h3>
+      <a href="Pets.html" class="side">Browse Avaliable Pets</a><br />
+      <!--Browse Avaliable Pets-->
+      <a href="findAdogcat.html" class="side">Find a dog/cat</a><br />
+      <a href="dog+catCare.html" class="side">The dog/cat care page</a><br />
+      <a href="petGiveAway.html" class="side">Have a Pet to give away?</a><br />
+      <a href="contact.html" class="side">Contact Us</a>
+    </div>
+
+    <div class="content">
+
+        <h2>Have a pet to give away?</h2>
+      <p>kindly complete the form below to find your pet a new home</p>
+
+    <form action="/action_page.php">
+      <input type="checkbox" id="op1" name="species" value="cat">
+      <label for="cat"> cat</label>
+      <input type="checkbox" id="op2" name="species" value="dog">
+      <label for="dog"> dog</label><br>
+
+
+
+    <!-- Different type of Dog breeds or cat breeds-->
+    <p>
+      What is the breed of your dog or cat?
+    </p>
+      <input type="radio" id="b1" name="Breed" value="Boston">
+      <label for="Boston Terrier">Boston Terrier</label><br>
+
+      <input type="radio" id="b2" name="Breed" value="Pomeranian">
+      <label for="Pomeranian">Pomeranian</label><br>
+
+    <input type="radio" id="b3" name="Breed" value="German Sheperd">
+      <label for="German Sheperd">German Sheperd</label><br>
+
+    <input type="radio" id="b4" name="Breed" value="Border Collie">
+      <label for="Border Collie">Border Collie</label><br>
+
+    <input type="radio" id="b5" name="Breed" value="Persian">
+      <label for="Persian">Persian</label><br>
+
+    <input type="radio" id="b7" name="Breed" value="MaineCoon">
+      <label for="Maine Coon">Maine Coon</label><br>
+
+    <input type="radio" id="b8" name="Breed" value="Siamese">
+      <label for="Siamese">Siamese</label><br>
+
+    <input type="radio" id="b9" name="Breed" value="Bengal">
+      <label for="Bengal">Bengal</label><br>
+
+    <p>
+      Does your pet get along with other dogs?
+    </p>
+
+      <input type="checkbox" id="yes" name="friendly" value="yes">
+      <label for="yes"> yes</label>
+      <input type="checkbox" id="op2" name="friendly" value="dog">
+      <label for="no"> no</label>
+
+    <p>
+      Does your pet get along with other cats?
+    <p>
+      <input type="checkbox" id="yes" name="friendly" value="yes">
+      <label for="yes"> yes</label>
+      <input type="checkbox" id="op2" name="friendly" value="no">
+      <label for="no"> no</label>
+      <p>
+      Gender?
+    </p>
+    <input type="checkbox" id="yes" name="friendly" value="male">
+    <label for="yes">male</label>
+    <input type="checkbox" id="op2" name="friendly" value="female">
+    <label for="no"> female</label><br>
+
+    <p>
+      Age of Animal
+    </p>
+    <input type="radio" id="c1" name="age" value="0">
+      <label for="age">0-2</label>
+    <input type="radio" id="c2" name="age" value="2">
+      <label for="age">2-5</label>
+    <input type="radio" id="c3" name="age" value="5">
+      <label for="age">5+</label>
+
+    <p>
+      Suitable for a family with small children
+    </p>
+    <input type="checkbox" id="yes" name="friendly" value="yes">
+    <label for="yes"> yes</label>
+    <input type="checkbox" id="op2" name="friendly" value="no">
+    <label for="no"> no</label><br />
+
+
+
+    <label for="quality">Describe the best qualities of your pet(less than 50 words)</label><br>
+      <input type="text" id="fname" name="quality" value=""><br>
+
+    <label for="name">Full name of the legal owner:</label><br>
+      <input type="text" id="fname" name="fname" value=""><br>
+    
+    <label for="email">Email:</label><br>
+      <input type="email" id="myEmail" name="mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required><br>
+
+      <input type="submit" value="Submit">
+      <button type="reset" value="Reset">Reset</button>
+<br />
+    </form>
+
+</div>
+
+
+
+  </body>
+</html>
